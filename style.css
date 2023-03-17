@@ -1,0 +1,109 @@
+.choice-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.choice-list ul li {
+  flex: 1 0 31%;
+}
+.choice-list ul li svg {
+  margin-top: 3px;
+}
+
+.icon-action svg {
+  height: 16px;
+  width: 16px;
+}
+
+.tab-layout ul.Polaris-Tabs li:nth-child(2) {
+  display: none;
+}
+
+.tab-install-hide ul.Polaris-Tabs li:nth-child(7) {
+  display: none;
+}
+
+.select-custom .css-26l3qy-menu {
+  z-index: 99;
+  background-color: #ffffff;
+}
+
+.select-multile {
+  min-width: 42.4%;
+}
+
+.button-select button {
+  height: 38px !important;
+  padding: 0.7rem 1rem !important;
+  min-width: 130px;
+}
+.css-1358qwt-control {
+  background-color: #f5f5f58a !important;
+}
+
+.plan-title {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.plan-price {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.plan-features {
+  margin: 3.2rem 0;
+  list-style: none;
+  padding: 0;
+}
+.plan-features li {
+  display: flex;
+  align-items: center;
+}
+.plan-feature:not(.plan-feature:last-child) {
+  margin-bottom: 1.6rem;
+}
+
+.plan-features:not(.plan-features:last-child)
+  .Polaris-Icon {
+  margin-right: 1rem;
+  margin-left: 0;
+}
+
+.action-group .Polaris-ButtonGroup {
+  width: 140px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h4 {
+  margin-bottom: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-content {
+  padding: 1rem;
+  border: 1px solid #d1c8c88a;
+  border-radius: 4px;
+}
+
+.card-content h5 {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+
+.card-content p {
+  margin-bottom: 1rem;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
+}
